@@ -8,11 +8,12 @@ public class ContaTerminal {
    String agencia = "067-8";
    String nomeCliente = "MARIO ANDRADE";
    double saldo = 237.48;
+
  
        
    public static void main(String[] args) throws Exception {
 
-      // Criando objeto Scanner para os dados serem inseridos no terminal manualmente
+      //Criando objeto Scanner para os dados serem inseridos no terminal manualmente
       Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
       System.out.println("Por favor, digite o número da Conta !");
